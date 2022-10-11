@@ -500,7 +500,7 @@
   /*----------------#TESTIMONIALS SECTION--------------*/
   
 
-  .testimonials { padding: var(--py) var(--px) 120px; }
+  .testimonials { padding: 60px 30px 120px; }
 
   .testimonials .section-title { margin-bottom: 15px; }
   
