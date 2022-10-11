@@ -235,7 +235,7 @@
     pointer-events: all;
   }
 
-  .menu-toggle-btn { display: none; }
+  .navbar-btn-group { display: none; }
 
   .cart-box {
     max-width: 450px;
