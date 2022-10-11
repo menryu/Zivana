@@ -450,18 +450,6 @@
     font-size: 14px;
   }
   
-  .card-badge ion-icon { font-size: 13px; }
-  
-  .card-badge.green {
-    background: var(--pistachio);
-    color: var(--space-cadet);
-  }
-  
-  .card-badge.red {
-    background: var(--red-orange-crayola);
-    color: var(--space-cadet);
-  }
-  
   .product-card .wrapper {
     display:         flex;
     justify-content: space-between;
