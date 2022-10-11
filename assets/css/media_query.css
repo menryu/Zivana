@@ -56,10 +56,6 @@
     top:  10%;
     left: 15%;
   }
-  .rasalist{
-    padding: inherit;
-    margin-inline: auto;
-  }
 }
 
 /*-----------------------------------*\ 
@@ -91,7 +87,6 @@
   .navbar-wrapper,
   .home,
   .about,
-  .rasalist,
   .product,
   .testimonials,
   .footer-wrapper {
@@ -302,16 +297,6 @@
 
 
 
-  /**
-   * SERVICES
-   */
-
-  .rasalist {
-    grid-template-columns: 1fr 1fr;
-    gap: 60px 30px;
-  }
-
-
 
   /**
    * PRODUCTS 
@@ -364,10 +349,5 @@
 
   }
 
-  /**
-   * SERVICES 
-   */
-
-  .rasalist { grid-template-columns: repeat(3, 1fr); }
 
 }
