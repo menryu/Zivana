@@ -425,10 +425,6 @@
   
   .product { padding: var(--py) var(--px); }
   
-  .product .section-title { margin-bottom: 30px; }
-  
-  .product .section-text { margin-bottom: 60px; }
-  
   .products-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -450,17 +446,6 @@
   
   .product-card:hover .product-img { transform: scale(1.05); }
   
-  .card-badge {
-    position: absolute;
-    top:  15px;
-    left: 15px;
-    display:     flex;
-    align-items: center;
-    gap: 5px;
-    padding: 5px 8px;
-    font-size: 14px;
-  }
-  
   .product-card .wrapper {
     display:         flex;
     justify-content: space-between;
@@ -480,7 +465,7 @@
   .product-card .product-price {
     background: var(--saffron);
     height: 60px;
-    width:  60px;
+    width:  110px;
     display:         flex;
     justify-content: center;
     align-items:     center;
@@ -495,7 +480,7 @@
     margin-top: 5px;
   }
   
-  .product-card .product-text {
+  .product-card {
     font-size: var(--fs-4);
     color: var(--rhythm);
     line-height: 1.6;
@@ -518,8 +503,6 @@
   .testimonials { padding: var(--py) var(--px) 120px; }
 
   .testimonials .section-title { margin-bottom: 15px; }
-  
-  .testimonials .section-text { margin-bottom: 50px; }
   
   .testimonials-grid {
     display: grid;
@@ -577,10 +560,10 @@
   
   
   /*-----------------------------------*\ 
-    #ADRESS SECTION
+    #CONTACT US SECTION
   \*-----------------------------------*/
  
-.address {
+.contactus {
 	padding-bottom: 150px;
 	display: grid;
 	align-items: center;
